@@ -3,6 +3,7 @@ const btn = document.querySelector('button');
 const errMessage = document.querySelector('.message');
 const form = document.querySelector('form');
 const element = document.getElementById('check');
+const random = document.getElementById("me")
 
 btn.addEventListener('click', (e) => {
     e.preventDefault()
